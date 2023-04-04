@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap%27');
+
+*{
+    margin: 0 ;
+    padding: 0 ;
+    text-decoration: none;
+    list-style: none;
+    color : #393e44;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+body {
+    background-color:  #e9e7da;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    height: 50px ;
+    align-items: flex-end ;
+}
+
+#putin {
+    position:absolute;
+    width: 30% ;
+    height: 90% ;
+    bottom:0;
+    left:35%;
+}
+
+.text p, .der {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+
+}
+
+.der p {
+    opacity: 0.8 ;
+    width: 50% ;
+}
+
+.caja1 p {
+    justify-content: flex-start;
+    font-size: 22px;
+    padding-left: 20px;
+    height: 80px ;
+    width: 305px ;
+    margin: 7% 73% 5% 27% ;
+}
+
+.caja2 {
+    display:grid; 
+    grid-template-columns: 50% 50% ;
+}
+
+
+
+.caja2 p {
+    height: 80px ;
+}
+
+.der p, .caja1 p {
+    font-size: 20px ;
+}
+
+.izq p, .caja3 p, .fa-chevron-right {
+    background-color: #393e44;
+    color: #d8d6cc;
+}
+
+.der p, .caja1 p {
+    color: #393e44;
+}
+
+.caja3 p {
+    justify-content: flex-end;
+    padding-right: 20px;
+    height: 80px ;
+    width: 305px;
+    margin: 7% 73% 2% 55% ;
+    font-size: 22px;
+}
+
+.hugo p {
+    color: #d8d6cc;
+    position:relative;
+    z-index: 5 ;
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    height: 30px ;
+    align-items: flex-start;
+    font-size: 15px ;
+}
+
+.neg {
+    font-size: 40px ;
+}
+
+.der, .caja1 p {
+    background-color: #d8d6cc;
+}
+
+.tletra {
+    position: absolute;
+    color: #ebe8db!important;
+    font-weight:700;
+    line-height: 50px;
+    letter-spacing: 8px;
+    user-select: none;
+    font-size: 40px!important;
+    padding-left: 50px;
+}
+
+.texto1 {
+    position: relative;
+    z-index: 44;
+    font-size: 30px!important;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
